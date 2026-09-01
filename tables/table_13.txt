@@ -1,0 +1,10 @@
+Table of 13 X 1 = 13
+Table of 13 X 2 = 26
+Table of 13 X 3 = 39
+Table of 13 X 4 = 52
+Table of 13 X 5 = 65
+Table of 13 X 6 = 78
+Table of 13 X 7 = 91
+Table of 13 X 8 = 104
+Table of 13 X 9 = 117
+Table of 13 X 10 = 130

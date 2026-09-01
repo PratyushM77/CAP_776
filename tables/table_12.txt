@@ -1,0 +1,10 @@
+Table of 12 X 1 = 12
+Table of 12 X 2 = 24
+Table of 12 X 3 = 36
+Table of 12 X 4 = 48
+Table of 12 X 5 = 60
+Table of 12 X 6 = 72
+Table of 12 X 7 = 84
+Table of 12 X 8 = 96
+Table of 12 X 9 = 108
+Table of 12 X 10 = 120

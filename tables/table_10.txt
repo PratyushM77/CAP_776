@@ -1,0 +1,10 @@
+Table of 10 X 1 = 10
+Table of 10 X 2 = 20
+Table of 10 X 3 = 30
+Table of 10 X 4 = 40
+Table of 10 X 5 = 50
+Table of 10 X 6 = 60
+Table of 10 X 7 = 70
+Table of 10 X 8 = 80
+Table of 10 X 9 = 90
+Table of 10 X 10 = 100

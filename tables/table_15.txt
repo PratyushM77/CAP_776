@@ -1,0 +1,10 @@
+Table of 15 X 1 = 15
+Table of 15 X 2 = 30
+Table of 15 X 3 = 45
+Table of 15 X 4 = 60
+Table of 15 X 5 = 75
+Table of 15 X 6 = 90
+Table of 15 X 7 = 105
+Table of 15 X 8 = 120
+Table of 15 X 9 = 135
+Table of 15 X 10 = 150

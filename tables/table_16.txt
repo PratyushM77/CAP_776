@@ -1,0 +1,10 @@
+Table of 16 X 1 = 16
+Table of 16 X 2 = 32
+Table of 16 X 3 = 48
+Table of 16 X 4 = 64
+Table of 16 X 5 = 80
+Table of 16 X 6 = 96
+Table of 16 X 7 = 112
+Table of 16 X 8 = 128
+Table of 16 X 9 = 144
+Table of 16 X 10 = 160

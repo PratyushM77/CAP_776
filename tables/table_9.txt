@@ -1,0 +1,10 @@
+Table of 9 X 1 = 9
+Table of 9 X 2 = 18
+Table of 9 X 3 = 27
+Table of 9 X 4 = 36
+Table of 9 X 5 = 45
+Table of 9 X 6 = 54
+Table of 9 X 7 = 63
+Table of 9 X 8 = 72
+Table of 9 X 9 = 81
+Table of 9 X 10 = 90

@@ -1,0 +1,10 @@
+Table of 2 X 1 = 2
+Table of 2 X 2 = 4
+Table of 2 X 3 = 6
+Table of 2 X 4 = 8
+Table of 2 X 5 = 10
+Table of 2 X 6 = 12
+Table of 2 X 7 = 14
+Table of 2 X 8 = 16
+Table of 2 X 9 = 18
+Table of 2 X 10 = 20
