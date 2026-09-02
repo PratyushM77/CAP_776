@@ -324,44 +324,42 @@
 # pixel = int(input())
 # if(pixel>=0 and pixel<=255):
 
-#Q1
+# Q1
 
-    # if(pixel<=75 ):
-    #     print("Pixel is Dark")
-    # else:
-    #     print("Pixel is Bright")
+# if(pixel<=75 ):
+#     print("Pixel is Dark")
+# else:
+#     print("Pixel is Bright")
 
 
 # Q2
 
-    # if(pixel>127):
-    #     print("Pixel is Bright")
-    # else:
-    #     print("Pixel is Dark")
+# if(pixel>127):
+#     print("Pixel is Bright")
+# else:
+#     print("Pixel is Dark")
 
 
 # Q3
-    # if(pixel>=192):
-    #     print("Pixel is Bright")
-    # elif(pixel>=130):
-    #     print("Pixel is Medium Bright")    
-    # elif(pixel>=64):
-    #     print("Pixel is Medium Dark")    
-    # else:
-    #     print("Dark")    
+# if(pixel>=192):
+#     print("Pixel is Bright")
+# elif(pixel>=130):
+#     print("Pixel is Medium Bright")
+# elif(pixel>=64):
+#     print("Pixel is Medium Dark")
+# else:
+#     print("Dark")
 
 
-    #Q4
+# Q4
 
-    # if(pixel>=80 and pixel<=180):
-    #     print("Pixel is a Part of Image")
-    # else:
-    #     print("Pixel is not a part of Image")    
+# if(pixel>=80 and pixel<=180):
+#     print("Pixel is a Part of Image")
+# else:
+#     print("Pixel is not a part of Image")
 
 # else:
-#     print("Enter a valid pixel Between 0 and 255")        
-
-
+#     print("Enter a valid pixel Between 0 and 255")
 
 
 # list_1 = [15,40,75,110,130,250,185,200,230]
@@ -381,8 +379,6 @@
 #         count_2 = count_2+1
 
 
-
-
 # for num in list_1:
 #     if(num>=max):
 #         max = num
@@ -396,24 +392,81 @@
 # print("Total darker count :",count_2)
 
 
-Breathing_prob = False
-Fever = True
-Temp = 39
-Cough = True
-if(Breathing_prob):
-    print("Admit the patient Urgently")
-else:
-    if(Temp>37):
-        print("Patient having Fever")    
-        if(Cough):
-            # print("Patient having cough")
-            print("Patient suffering from Respiratory infection probably Flu")
-            
-        else:
-            print("Unknown")
+# Problem Statement 1 || Date - 27/8/26
 
+# Breathing_prob = False
+# Fever = True
+# Temp = 39
+# Cough = True
+# if(Breathing_prob):
+#     print("Admit the patient Urgently")
+# else:
+#     if(Temp>37):
+#         print("Patient having Fever")
+#         if(Cough):
+#             # print("Patient having cough")
+#             print("Patient suffering from Respiratory infection probably Flu")
+
+#         else:
+#             print("Unknown")
+
+#     else:
+#         if(Cough):
+#             print("Patient having Cold")
+#         else:
+#             print("Unknown")
+
+# Problem Statement 2 || Date - 02/9/26
+
+
+print("In how many subjects you appeared?")
+inp = int(input())
+# list  = []
+dict = {}
+for i in range(inp):
+    print("Enter Subject Name: ")
+    usersub = str(input())
+    print("Enter Marks: ")
+    usermarks = int(input())
+    dict[usersub] = usermarks
+
+
+def calculate_total():
+
+    return sum(dict.values())
+
+
+def calculate_average(total):
+    return total / inp
+
+
+def calculate_grade(average):
+
+    if average > 90:
+        print("Grade: A+")
+    elif average > 80:
+        print("Grade: A")
+    elif average > 70:
+        print("Grade: B")
+    elif average > 60:
+        print("Grade: C")
+    elif average > 50:
+        print("Grade: D")
     else:
-        if(Cough):
-            print("Patient having Cold")
-        else:
-            print("Unknown")
+        print("Grade: F")
+
+
+def calculate_status(total):
+    if (total / (inp * 100)) * 100 > 33:
+        print("Pass")
+    else:
+        print("Fail")
+
+
+total = calculate_total()
+average = round(calculate_average(total), 2)
+print("Total marks you got:", total)
+print("Average marks you got:", average)
+grade = calculate_grade(average)
+
+calculate_status(total)
