@@ -419,54 +419,94 @@
 # Problem Statement 2 || Date - 02/9/26
 
 
-print("In how many subjects you appeared?")
-inp = int(input())
-# list  = []
-dict = {}
-for i in range(inp):
-    print("Enter Subject Name: ")
-    usersub = str(input())
-    print("Enter Marks: ")
-    usermarks = int(input())
-    dict[usersub] = usermarks
+# print("In how many subjects you appeared?")
+# inp = int(input())
+# # list  = []
+# dict = {}
+# for i in range(inp):
+#     print("Enter Subject Name: ")
+#     usersub = str(input())
+#     print("Enter Marks: ")
+#     usermarks = int(input())
+#     dict[usersub] = usermarks
 
 
-def calculate_total():
+# def calculate_total():
 
-    return sum(dict.values())
-
-
-def calculate_average(total):
-    return total / inp
+#     return sum(dict.values())
 
 
-def calculate_grade(average):
-
-    if average > 90:
-        print("Grade: A+")
-    elif average > 80:
-        print("Grade: A")
-    elif average > 70:
-        print("Grade: B")
-    elif average > 60:
-        print("Grade: C")
-    elif average > 50:
-        print("Grade: D")
-    else:
-        print("Grade: F")
+# def calculate_average(total):
+#     return total / inp
 
 
-def calculate_status(total):
-    if (total / (inp * 100)) * 100 > 33:
-        print("Pass")
-    else:
-        print("Fail")
+# def calculate_grade(average):
+
+#     if average > 90:
+#         print("Grade: A+")
+#     elif average > 80:
+#         print("Grade: A")
+#     elif average > 70:
+#         print("Grade: B")
+#     elif average > 60:
+#         print("Grade: C")
+#     elif average > 50:
+#         print("Grade: D")
+#     else:
+#         print("Grade: F")
 
 
-total = calculate_total()
-average = round(calculate_average(total), 2)
-print("Total marks you got:", total)
-print("Average marks you got:", average)
-grade = calculate_grade(average)
+# def calculate_status(total):
+#     if (total / (inp * 100)) * 100 > 33:
+#         print("Pass")
+#     else:
+#         print("Fail")
 
-calculate_status(total)
+
+# total = calculate_total()
+# average = round(calculate_average(total), 2)
+# print("Total marks you got:", total)
+# print("Average marks you got:", average)
+# grade = calculate_grade(average)
+
+# calculate_status(total)
+
+# list1 = [10,20,30]
+
+# for i in range(len(list1)):
+#     print(list1[i])
+
+# dictionary = {"a":1,"b":2}
+
+# print(dictionary.)
+
+# n = int(input())
+
+# i = 0
+# arr = []
+# sum = 0
+# while(i<n):
+#     inp2 = int(input())
+#     arr.append(inp2*(i+1))
+#     sum=sum+inp2*(i+1)
+#     i=i+1
+
+# print(sum)
+# print(arr)
+
+
+# Second Max 
+
+# L = [20, 50, 60, 90, 100, 15]
+# max = L[0]
+# smax = 0
+# for num in L:
+#     if num>=max:
+#         smax = max
+#         max = num
+
+
+# print("Max: ", max)
+# print("SMax: ", smax)
+
+
